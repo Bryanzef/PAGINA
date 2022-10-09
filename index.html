@@ -1,0 +1,322 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Agrupamento</title>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:ital,wght@0,400;1,600&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <!--Icon Instagram-->
+    <script src="https://kit.fontawesome.com/3880d83a86.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!-- As tags semanaticas são usadas para ter uma organização melhor de um site seja para o usuario, navegador ou para algum outro programador, todo site ou algo que formos programar dever ser feito com uma semanatica entendivel-->
+  <style>
+    h1
+    {
+        background-color: orangered   ;
+    }
+    body {
+        margin: auto;
+        background-color: rgb(53, 51, 51);
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    header {
+       
+        padding: 15px;
+        background-color:black;
+        text-align: center;
+
+    }
+
+    main {
+        
+        text-align: center;
+        margin: 20px;
+        border-radius: 20px;
+        background-color: brown;
+        padding: 10px;
+    }
+    main:hover {
+        transition: 2s;
+        background: linear-gradient(90deg, rgba(140,27,27,1) 0%, rgba(157,16,16,1) 48%, rgba(231,69,48,1) 100%);
+    }
+ 
+    footer {
+        
+        font-family: 'Poppins', sans-serif;
+        height: 60px;
+        background-color: black;
+        margin: 30px;
+        text-align: center;
+    }
+
+    section {
+    
+        padding: 2px;
+        background-color: brown;
+        margin: 20px;
+    }
+    section:hover{
+        transition: 2s;
+        background: linear-gradient(90deg, rgba(140,27,27,1) 0%, rgba(157,16,16,1) 48%, rgba(231,69,48,1) 100%);
+    }
+    nav {
+        margin: 0;
+        height: 30px;
+        box-shadow: 1px 1px 1px  black;
+        background-color: red;
+    }
+    nav > a {
+     
+        margin: 30px;
+        min-width: 50px ;
+        max-width: 50px;
+        text-decoration: none;
+        color: white;
+    }
+    nav > a:hover {
+        
+        cursor: pointer;
+        color: aqua;
+        text-decoration: underline;
+    }
+    aside > p {
+        
+        box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.705);
+        padding: 6px;
+        background-color: red;
+        border-radius: 5px;
+    }
+    h2 {
+        border: solid 0.5px;
+        text-transform: uppercase;
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        background-color: rgb(26, 25, 25);
+        padding: auto;
+        border-radius: 13px;
+    }
+
+    
+
+.Topicos {
+    text-decoration: none;
+  color: white;
+
+}
+
+    .Topicos:hover {
+        
+        cursor: pointer;
+        text-decoration: underline;
+    }
+.btn{
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 1px 1px 1px  black;
+        border-radius: 5px;
+        border: none;
+        width: 200px;
+        height: 30px;
+        padding: 5px;
+        background-color: white;
+        margin-bottom: 5px;
+      
+    }
+.btn:hover {
+    transition: 2s;
+    background-color: rgb(193, 224, 250);
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+article > p {
+    font-family: 'Poppins', sans-serif;
+}
+li {
+  
+    text-align: initial;
+    list-style: circle;
+   
+}
+ strong {
+    background-color: orangered   ;
+    border-radius: 2px;
+   
+}
+.TAGSHTML {
+    color: black;
+}
+.TAGSHTML:hover {
+    background-color: lightcoral;
+    transition: 0,2s;
+}
+.Ref {
+    color: white;
+}
+.Ref:hover {
+    cursor: pointer;
+    background-color: rgba(240, 128, 128, 0.404);
+}
+.insta {
+   
+color: white;
+}
+.insta:hover {
+    cursor: pointer;
+    background-color: red;
+    transition: 1s;
+}
+.fa-brands {
+    margin: 4px;
+}
+/* 
+img {
+ min-width: 300px;
+ max-width: 250px;
+ border-radius: 20px;
+}
+img:hover {
+    cursor: pointer;
+
+}
+*/
+  </style>
+
+
+    <header>
+         <!--Cabeçalho de um site-->
+        <h1>Tópicos da semanana</h1>
+
+        <nav> <!--Dentro desta tag vao os metodos usados para navegaçao, seja links e etc-->
+            <a href="#html" title="informações basicas sobre html">Html</a>
+
+            <a href="#CSS" title="Informações basicas sobre css">CSS</a>
+
+            <a href="#Java" title="Informções basicas sobre JavaScript">JavaScript</a>
+        </nav>
+    </header>
+
+    <main> <!--Conteudo Principal de um site-->
+        
+      <section class="Futebol">  <!--A tag Section é usada para criar sessoes de um site-->
+         <article>
+            <h2><a href="" class="Topicos" id="html"><i class="fa-brands fa-html5"></i> HTML</a></h2>
+            <p> Já Diz o nome <strong>HTML</strong>(Linguagem de Marcação de HiperTexto) </p>
+
+                <p> <strong> HTML (Linguagem de Marcação de HiperTexto)</strong> é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.
+
+                    "Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites. Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo na world wide web.
+                    
+                    O HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web. A marcação HTML inclui "elementos" especiais, como:
+                 
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/title" class="TAGSHTML">title</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/body" class="TAGSHTML"> body</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/header" class="TAGSHTML">header</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/footer" class="TAGSHTML"> footer>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/article" class="TAGSHTML">article</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section" class="TAGSHTML">section</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p" class="TAGSHTML">p</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/div" class="TAGSHTML"> div</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/span" class="TAGSHTML"> span</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img" class="TAGSHTML">img</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/aside" class="TAGSHTML">aside</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/audio" class="TAGSHTML">audio</a>, 
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/canvas" class="TAGSHTML">canvas</a>, 
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/datalist" class="TAGSHTML"> datalist</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/details" class="TAGSHTML"> details,</a>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/mbed" class="TAGSHTML">mbed</a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/nav" class="TAGSHTML"> nav</a>, 
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/output" class="TAGSHTML">output </a>,
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/progress" class="TAGSHTML">progress</a>,
+                     <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/video" class="TAGSHTML">video></a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul" class="TAGSHTML"> ul</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ol" class="TAGSHTML"> ol</a>. <strong>Clique sobre as tags para obter mas informações</strong>
+                    </p>
+                   
+                  <p>  
+                    Um elemento HTML é separado de outro texto em um documento por "tags", que consistem no nome do elemento entre "<" e ">". O nome de um elemento dentro de uma tag é insensível a maiúsculas e minúsculas. Isto é, pode ser escrito em maiúsculas, minú  sculas ou um mistura. Por exemplo, a tag <strong> title</strong>pode ser escrita como <strong> Title </strong>, <strong> TITLE </strong> ou de qualquer outra forma.
+                  </p>
+                  
+                    <p>
+                  </p>
+                    
+            <aside>
+               
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" > <button class="btn"   title="Clique para Saber mas"  > Saiba mas sobre o html</button> </a> 
+                <p>Referencias <a href="https://developer.mozilla.org/pt-BR/" class="Ref">MDN webDocs</a></p>
+                
+               
+              
+            </aside>
+         </article>
+
+     </section> 
+        <section class="CSS">
+            <article>                      
+            <h2><a href="" class="Topicos" id="CSS"> <i class="fa-brands fa-css3"></i> CSS</a></h2>
+
+            <p>CSS (Folha de Estilo em Cascata) é o código que você usa para dar estilo à sua página Web. CSS básico apresenta tudo que você precisa para começar. Responderemos a perguntas do tipo: Como mudo meu texto para preto ou vermelho? Como faço para que meu conteúdo apareça em determinados lugares na tela? Como decoro minha página com imagens e cores de fundo? </p>
+
+                 <p>
+                      Assim como o HTML, o CSS não é realmente uma linguagem de programação. Também não é uma linguagem de marcação — é uma linguagem de folhas de estilos. Isso significa que o CSS permite aplicar estilos seletivamente a elementos em documentos HTML. Por exemplo, para selecionar todos os elementos parágrafo de uma página HTML e tornar o texto dentro deles vermelho, você escreveria este CSS: </p>
+                      <p>
+                      Usaremos a Tag p de paragrafo e como abertura da tag   </p>
+                      <p>
+                     p { 
+                        e aqui dentro vai o comando
+                        color: red;
+                      }
+                    </p>
+               
+                <aside>
+                    
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics" >   <button class="btn" title="Clique para Saber mas" >  Saiba mas sobre o css </button> </a>
+                    <p>Referencias <a href="https://developer.mozilla.org/pt-BR/" class="Ref">MDN webDocs</a> </p>
+                    
+                </aside>
+        </article>
+          </section>
+<br>
+     <section class="Noticias"> 
+        <article>
+            <h2><a href="" class="Topicos" id="Java" > <i class="fa-brands fa-js"></i> JavaScript</a> </a></h2>
+            <p>JavaScript é a linguagem de programação usada para adicionar interatividade ao seu site (por exemplo: jogos, respostas quando botões são pressionados ou dados são inseridos em formulários, estilo dinâmico, animações). Esse artigo ajuda você a começar com essa linguagem interessante e dá uma idéia do que é possível.
+
+              <p> <strong> JavaScript (abreviado como "JS") </strong> é uma linguagem de programação dinâmica cheia de recursos que quando aplicada em um documento HTML, pode fornecer interatividade dinâmica em sites. Foi inventada por Brendan Eich, co-fundador do projeto Mozilla, da Fundação Mozilla e da Corporação Mozilla.
+                JavaScript é incrivelmente versátil e amigável ao iniciante. Com mais experiência, você poderá criar jogos, gráficos 2D e 3D animados, aplicativos abrangentes baseados em bancos de dados e muito mais!
+              </p>
+              JavaScript em si é bastante compacto, mas muito flexível. Os desenvolvedores escreveram uma grande variedade de ferramentas sobre a linguagem JavaScript principal, desbloqueando uma grande quantidade de funcionalidades extras com o mínimo de esforço. <p>
+               <!--<p>
+                    <img src="https://www.targethost.com.br/site/wp-content/uploads/2019/03/MaxPixel.freegreatpicture.com-Programming-Program-Source-Code-Code-Javascript-3337044.jpg" alt="" srcset="">
+                </p> --> 
+                <aside>
+                  
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics" > <button class="btn" title="Clique para Saber mas" > Saiba mas sobre o JavaScript</button> </a> 
+                    <p>Referencias <a href="https://developer.mozilla.org/pt-BR/" class="Ref">MDN webDocs</a> </p>
+                    
+                </aside>
+            
+        </article>
+    </section>
+
+    </main>
+
+    <footer> <!--rodapé de um site-->
+       <p>Desenvolvido para estudo de aulas, meu insta para contatao <a href="https://www.instagram.com/bryanzefino/" class="insta">
+     <cite>   @Bryanzefino</a> </cite></p>
+    </footer>
+<!--
+    Como ainda estou aprendendo sobre responsividade, não consegui deixar perfeito para todos dispositvos mas fiz o melhor que pude deixando um bom resultado e uma acessibilidade boa para o leitor
+-->
+
+</body>
+</html>
+<!--
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/adTHzTtnKEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
